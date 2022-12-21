@@ -20,4 +20,4 @@ make cert_info CN=server
 
 ## Upload server certificate as K8 secret 
 
-make k8_secret CN=server# simple-pki-maker
+make k8_secret CN=server NAME=server NAMESPACE=cluster1-uboot-cluster
